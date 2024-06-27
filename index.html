@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipo de Fútbol</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#inicio">Cerveceros</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#plantel">Plantel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeria">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#videos">Videos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Inicio -->
+    <section id="inicio">
+        <div class="container text-center">
+            <h1 class="display-4">Bienvenidos al sitio oficial del Equipo de Fútbol</h1>
+            <p class="lead">Nuestra historia y nuestro equipo</p>
+        </div>
+    </section>
+
+    <!-- Plantel -->
+    <section id="plantel" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Nuestro Plantel</h2>
+            <div class="row" id="jugadores-lista">
+                <!-- Las cartas de los jugadores se cargarán aquí -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería -->
+    <section id="galeria" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Galería de Imágenes</h2>
+            <div class="row">
+                <!-- Imágenes de la galería -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Videos -->
+    <section id="videos" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Videos de Partidos</h2>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-7 mb-4">
+                    <div class="video-wrapper">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0mzqAG2fb9I?si=LSPBgMplSIeHyued" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8 col-lg-7 mb-4">
+                    <div class="video-wrapper">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FMRqknKnyx0?si=Occ3XwOiBjgryN7C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <!-- Agrega más iframes según la cantidad de videos que quieras mostrar -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2023 Equipo de Fútbol. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
