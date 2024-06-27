@@ -6,19 +6,19 @@ const jugadores = [
         nombre: "Alan Paz", 
         edad: 31, 
         posicion: "Mediocampista",
-        foto: "https://www.topmercato.com/wp-content/uploads/2024/03/franco-mastantuono-river-6.jpg" // URL de la imagen del jugador 1
+        foto: "https://s.hs-data.com/bilder/spieler/gross/84724.jpg?fallback=png" // URL de la imagen del jugador 1
     },
     { 
         nombre: "Santiago Paz", 
         edad: 27, 
         posicion: "Mediocampista",
-        foto: "../images/perrito.jpeg" // URL de la imagen del jugador 2
+        foto: "https://s.hs-data.com/bilder/spieler/gross/84724.jpg?fallback=png" // URL de la imagen del jugador 2
     },
     { 
         nombre: "Jugador 3", 
         edad: 23, 
         posicion: "Portero",
-        foto: "ruta-a-la-imagen-3.jpg" // URL de la imagen del jugador 3
+        foto: "https://s.hs-data.com/bilder/spieler/gross/84724.jpg?fallback=png" // URL de la imagen del jugador 3
     }
 ];
 
