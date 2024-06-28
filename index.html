@@ -58,7 +58,7 @@
     <section id="galeria" class="py-5">
         <div class="container">
             <h2 class="text-center mb-4">Galería de Imágenes</h2>
-            <div class="row">
+            <div class="row" id="gallery">
                 <!-- Imágenes de la galería -->
             </div>
         </div>
@@ -106,6 +106,22 @@
             </div>
         </div>
     </section>
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="imageModalLabel">imagen</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="" id="modalImage" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      
 
     <!-- Footer -->
     <footer class="bg-dark text-white py-4">

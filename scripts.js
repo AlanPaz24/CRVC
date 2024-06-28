@@ -55,6 +55,36 @@ function cargarJugadores() {
     });
 }
 
+document.addEventListener('DOMContentLoaded', function() {
+    const gallery = document.getElementById('gallery');
+    const images = [
+        { src: 'images/equipo1.png', alt: 'Imagen 1' },
+        { src: 'images/hermanos.png', alt: 'Imagen 2' },
+        { src: 'images/hermanos.png', alt: 'Imagen 3' },
+        { src: 'images/hermanos.png', alt: 'Imagen 4' },
+        { src: 'images/hermanos.png', alt: 'Imagen 5' },
+        { src: 'images/perrito.jpeg', alt: 'Imagen 6' },
+        // Añade más imágenes según sea necesario
+    ];
 
-// Cargar jugadores al cargar la página
-document.addEventListener('DOMContentLoaded', cargarJugadores);
+    images.forEach(image => {
+        const col = document.createElement('div');
+        col.className = 'col-md-4 mb-4';
+        col.innerHTML = `
+            <div class="card">
+                <img src="${image.src}" class="card-img-top" alt="${image.alt}">
+            </div>
+        `;
+        gallery.appendChild(col);
+    });
+
+    // Agrega el evento de clic a las imágenes
+    gallery.addEventListener('click', function(event) {
+        if (event.target.tagName === 'IMG') {
+            const modalImage = document.getElementById('modalImage');
+            modalImage.src = event.target.src;
+            modalImage.alt = event.target.alt;
+            $('#imageModal').modal('show');
+        }
+    });
+});
