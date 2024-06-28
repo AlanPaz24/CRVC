@@ -15,9 +15,21 @@ const jugadores = [
         foto: "https://s.hs-data.com/bilder/spieler/gross/84724.jpg?fallback=png" // URL de la imagen del jugador 2
     },
     { 
-        nombre: "Jugador 3", 
-        edad: 23, 
-        posicion: "Portero",
+        nombre: "Agustin Piñeiro", 
+        edad: 25, 
+        posicion: "Mediocampista",
+        foto: "https://s.hs-data.com/bilder/spieler/gross/84724.jpg?fallback=png" // URL de la imagen del jugador 3
+    },
+    { 
+        nombre: "Agustín Mohr", 
+        edad: 25, 
+        posicion: "Defensor",
+        foto: "https://s.hs-data.com/bilder/spieler/gross/84724.jpg?fallback=png" // URL de la imagen del jugador 3
+    },
+    { 
+        nombre: "Maximiliano Villavicencio", 
+        edad: 30, 
+        posicion: "Delantero",
         foto: "https://s.hs-data.com/bilder/spieler/gross/84724.jpg?fallback=png" // URL de la imagen del jugador 3
     }
 ];
@@ -28,7 +40,7 @@ function cargarJugadores() {
 
     jugadores.forEach(jugador => {
         const carta = `
-        <div class="col-md-4">
+        <div class="col-md-3">
             <div class="card">
                 <img src="${jugador.foto}" class="card-img-top" alt="${jugador.nombre}">
                 <div class="card-body">
