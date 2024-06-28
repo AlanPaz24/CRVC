@@ -16,13 +16,13 @@ const jugadores = [
     },
     { 
         nombre: "Agustin Piñeiro", 
-        edad: 25, 
+        edad: 26, 
         posicion: "Mediocampista",
         foto: "https://s.hs-data.com/bilder/spieler/gross/84724.jpg?fallback=png" // URL de la imagen del jugador 3
     },
     { 
         nombre: "Agustín Mohr", 
-        edad: 25, 
+        edad: 28, 
         posicion: "Defensor",
         foto: "https://s.hs-data.com/bilder/spieler/gross/84724.jpg?fallback=png" // URL de la imagen del jugador 3
     },
