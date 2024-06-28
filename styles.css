@@ -7,6 +7,10 @@ body {
 section {
     padding: 4rem 0;
 }
+.logo-img {
+    height: 80px; /* Ajusta la altura según tus necesidades */
+    width: auto;
+}
 
 #inicio {
     background: url('./images/') no-repeat center center/cover;
