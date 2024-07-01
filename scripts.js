@@ -1,6 +1,3 @@
-// scripts.js
-
-// Datos de ejemplo para los jugadores (puedes modificarlo según tu plantel)
 const jugadores = [
     { 
         nombre: "Alan Paz", 
@@ -31,7 +28,49 @@ const jugadores = [
         edad: 30, 
         posicion: "Delantero",
         foto: "https://s.hs-data.com/bilder/spieler/gross/84724.jpg?fallback=png" // URL de la imagen del jugador 3
-    }
+    },
+    { 
+        nombre: "Maximiliano Villavicencio", 
+        edad: 30, 
+        posicion: "Delantero",
+        foto: "https://s.hs-data.com/bilder/spieler/gross/84724.jpg?fallback=png" // URL de la imagen del jugador 3
+    },
+    { 
+        nombre: "Maximiliano Villavicencio", 
+        edad: 30, 
+        posicion: "Delantero",
+        foto: "https://s.hs-data.com/bilder/spieler/gross/84724.jpg?fallback=png" // URL de la imagen del jugador 3
+    },
+    { 
+        nombre: "Maximiliano Villavicencio", 
+        edad: 30, 
+        posicion: "Delantero",
+        foto: "https://s.hs-data.com/bilder/spieler/gross/84724.jpg?fallback=png" // URL de la imagen del jugador 3
+    },
+    { 
+        nombre: "Maximiliano Villavicencio", 
+        edad: 30, 
+        posicion: "Delantero",
+        foto: "https://s.hs-data.com/bilder/spieler/gross/84724.jpg?fallback=png" // URL de la imagen del jugador 3
+    },
+    { 
+        nombre: "Maximiliano Villavicencio", 
+        edad: 30, 
+        posicion: "Delantero",
+        foto: "https://s.hs-data.com/bilder/spieler/gross/84724.jpg?fallback=png" // URL de la imagen del jugador 3
+    },
+    { 
+        nombre: "Maximiliano Villavicencio", 
+        edad: 30, 
+        posicion: "Delantero",
+        foto: "https://s.hs-data.com/bilder/spieler/gross/84724.jpg?fallback=png" // URL de la imagen del jugador 3
+    },
+    { 
+        nombre: "Maximiliano Villavicencio", 
+        edad: 30, 
+        posicion: "Delantero",
+        foto: "https://s.hs-data.com/bilder/spieler/gross/84724.jpg?fallback=png" // URL de la imagen del jugador 3
+    },
 ];
 
 // Función para agregar las cartas de los jugadores
@@ -87,4 +126,7 @@ document.addEventListener('DOMContentLoaded', function() {
             $('#imageModal').modal('show');
         }
     });
+
+    // Llamar a la función cargarJugadores
+    cargarJugadores();
 });
